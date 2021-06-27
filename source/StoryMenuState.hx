@@ -25,7 +25,7 @@ class StoryMenuState extends MusicBeatState
 
 	var weekData:Array<Dynamic> = [
 		['Tutorial'],
-		['Bopeebo', 'Fresh', 'Dad Battle']
+		['Bopeebo', 'Fresh', 'Dad Battle'],
 	];
 	var curDifficulty:Int = 1;
 
@@ -39,7 +39,6 @@ class StoryMenuState extends MusicBeatState
 	var weekNames:Array<String> = [
 		"",
 		"Doe"
-
 	];
 
 	var txtWeekTitle:FlxText;
