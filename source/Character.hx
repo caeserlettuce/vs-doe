@@ -139,6 +139,23 @@ class Character extends FlxSprite
 				addOffset("singDOWN", 0, -30);
 
 				playAnim('idle');
+			case 'doegh':
+				// DOE ANIMATION LOADING CODE
+				tex = Paths.getSparrowAtlas('characters/DOES_WORLD');
+				frames = tex;
+				animation.addByPrefix('idle', 'doegh dance', 24);
+				animation.addByPrefix('singUP', 'doegh up', 24);
+				animation.addByPrefix('singRIGHT', 'doegh right', 24);
+				animation.addByPrefix('singDOWN', 'doegh down', 24);
+				animation.addByPrefix('singLEFT', 'doegh left', 24);
+
+				addOffset('idle');
+				addOffset("singUP");
+				addOffset("singRIGHT");
+				addOffset("singLEFT");
+				addOffset("singDOWN");
+
+				playAnim('idle');
 			case 'spooky':
 				tex = Paths.getSparrowAtlas('characters/spooky_kids_assets');
 				frames = tex;
